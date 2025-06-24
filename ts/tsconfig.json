@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir" : "dist",
+    "module": "nodenext",
+    "target": "es2024",
+    "baseUrl": "./",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

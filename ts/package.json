@@ -1,0 +1,19 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "npx tsx ",
+    "ts": "npx tsc -t es2024 -m es2022 --moduleResolution node --outDir dist "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.0.3",
+    "npx": "^10.2.2",
+    "prettier": "^3.6.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
