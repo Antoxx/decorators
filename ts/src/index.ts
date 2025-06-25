@@ -86,6 +86,9 @@ function methodParameterDecoratorFactory () {
   }
 }
 
+console.log('============== BEFORE CLASS ===============')
+
+// decorator composition
 @classDecorator
 @classDecoratorFactory('CLASS')
 class Class {
@@ -114,7 +117,7 @@ class Class {
   }
 }
 
-console.log('============== INITIALIZING ===============')
+console.log('============== AFTER CLASS ===============')
 
 const c = new Class(456, 'string')
 
