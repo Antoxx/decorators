@@ -1,1 +1,1 @@
-Работа с Typescript декораторами
+Typescript decorators
